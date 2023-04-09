@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+body {
+    background-image: url('../img/background-start.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 200px;
+    height: 100vh;
+    color: #45b9d1;
+    font-family: 'Libre Franklin';
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+ h1 {
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+ .btn-start {
+    font-size: 100px;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .body {
+        background-image: url('img/background-start.jpg');
+        background-size: cover;
+        text-align: center;     
+    }
+}
